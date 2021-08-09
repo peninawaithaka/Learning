@@ -1,1 +1,4 @@
-console.log('Hello world');
+const S = "Hello World";
+
+
+console.log(S.length);
