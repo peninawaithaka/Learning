@@ -1,19 +1,101 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>Java Script</h1>
-    </header>
-    <h1>Hello World</h1>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+      
+        
+        <link rel="stylesheet" href="style.css">
 
-    <p>Trying new things everday</p>
-    <p>Trying new things everday</p>
-
-    <script src="main.js">
-
-    </script>
-</body>
+    </head>
+    <body>
+        <header>
+              <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Penina Waithaka</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Data Analyst</p>
+            <img src="img/mypic2.jpg" alt="my image" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Great at designing and developing websites</p>
+                </div> 
+                
+                <div class="service">
+                    <h3>Data Analyst</h3>
+                    <p>Good at Data analysis and visualization</p>
+                </div> 
+                
+                <div class="service">
+                    <h3>Tech Blogger</h3>
+                    <p>Enthusiastic in learning and sharing information about the tech world</p>
+                </div> 
+            </div> 
+            
+                    </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Data Analyst based in Nyeri</p>
+           
+           <div class="about-me__body">
+               <p>Proficient Data Analyst and IT specialist with experience in ICT skills such as Networking, project management, Database design and management. Good at Data Analysis using SQL and Machine learning basics. Great at writing reports and making presentations, excellent communication skills, ability to work as a team and effective work ethic.</p>
+           </div>
+           
+           <img src="img/mypic.jpg" alt="my pic" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+                       
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="peninawaithaka5@gmail.com" class="footer__link">My Email</a>
+            <ul class="social-list">
+            
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+    </body>
 </html>
